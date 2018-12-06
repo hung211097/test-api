@@ -7,7 +7,7 @@ const setting = {
         host: 'ec2-54-225-196-122.compute-1.amazonaws.com',
         port: 5432,
         dialect: 'postgres',
-        // operatorsAliases: false,
+        operatorsAliases: false,
         protocol: 'postgres',
         dialectOptions: {
             ssl: true
@@ -19,5 +19,5 @@ const setting = {
         //     idle: 10000
         // }
     }
-
+}
 module.exports = setting;
